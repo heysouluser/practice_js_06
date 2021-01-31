@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div>1. Повторите действия указанные в уроке. Добавьте кнопку, при нажатии на которую считывается цвет выбранный пользователем (input type=color), и применяется к фону страницы.</div>
+
+   <input type="color" class="color-input">
+   <div><button class="t1">Push</button></div>
+
+   <div>2. Создайте два input[type=color]. В одном пользователь может выбрать цвет фона, во втором цвет текста. При нажатии на кнопку Применить - примените эти цвета к странице. Также добавьте кнопку сброса цвета на черный-белый.</div>
+
+   <input type="color" class="color-input-2">
+   <input type="color" class="color-input-3">
+   <div><button class="t2">Add</button></div>
+   <div><button class="t21">Reset</button></div>
+
+   <div>3. Добавьте input[type=range] начальным значением которого есть число 14, а конечным 48. Ползунок установлен на 16. При изменении положения ползунка меняйте размер текста в соответствии со значением.</div>
+   
+   <input type="range" class="range" min="14" max="48" value="16">
+   <span></span>
+
+   <div>4. Рядом с созданным ползунком добавьте span куда выводите текущее значение ползунка. Для этого используйте событие input, oninput.</div>
+
+
+   <div>5. Создайте три input type=range. Значения от нуля до 255. Создайте блок, цвет rgb которого определятеся значением на ползунках. При изменении положения ползунков, изменяется цвет блока. Возле каждого ползунка выводить текущее значение цвета.</div>
+
+   <div class="rangeColor">rgb test</div>
+
+   <div><input type="range" min="0" max="255" class="t51"><span class="span1"></span></div>
+   <div><input type="range" min="0" max="255" class="t52"><span class="span2"></span></div>
+   <div><input type="range" min="0" max="255" class="t53"><span class="span3"></span></div>
+   
+
+   <script src="./script.js"></script>
+</body>
+</html>

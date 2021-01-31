@@ -1,0 +1,11 @@
+div {
+   margin: 10px 0 10px 0;
+}
+
+.rangeColor {
+   width: 50px;
+   height: 60px;
+   border: 1px solid black;
+   line-height: 60px;
+   padding: 0 5px 0 5px;
+}
